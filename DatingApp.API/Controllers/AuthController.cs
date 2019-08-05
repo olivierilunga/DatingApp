@@ -42,9 +42,12 @@ namespace DatingApp.API.Controllers
             };
 
             var createdUser = await _repo.Register(userToCreate, userForRegisterDto.Password);
-            //if (createdUser == null) throw new ArgumentNullException(nameof(createdUser));
+            if (createdUser == null) throw new ArgumentNullException(nameof(createdUser));
 
             return StatusCode(201);
+
+          /*/if (createdUser != null) return StatusCode(201);
+            throw new ArgumentNullException(nameof(createdUser));*/            
         }
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
