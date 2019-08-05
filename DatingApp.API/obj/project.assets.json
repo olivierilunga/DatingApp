@@ -1654,7 +1654,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Data.Sqlite.Core/2.2.3": {
+      "Microsoft.Data.Sqlite.Core/2.2.6": {
         "type": "package",
         "dependencies": {
           "SQLitePCLRaw.core": "1.1.12"
@@ -1685,11 +1685,11 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/2.2.3": {
+      "Microsoft.EntityFrameworkCore/2.2.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.3",
-          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.3",
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.6",
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.Logging": "2.2.0",
@@ -1706,7 +1706,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/2.2.3": {
+      "Microsoft.EntityFrameworkCore.Abstractions/2.2.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -1715,7 +1715,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/2.2.3": {
+      "Microsoft.EntityFrameworkCore.Analyzers/2.2.6": {
         "type": "package"
       },
       "Microsoft.EntityFrameworkCore.Design/2.2.0": {
@@ -1746,10 +1746,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/2.2.3": {
+      "Microsoft.EntityFrameworkCore.Relational/2.2.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.3"
+          "Microsoft.EntityFrameworkCore": "2.2.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -1758,10 +1758,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite/2.2.3": {
+      "Microsoft.EntityFrameworkCore.Sqlite/2.2.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.2.3",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.2.6",
           "SQLitePCLRaw.bundle_green": "1.1.12"
         },
         "compile": {
@@ -1771,11 +1771,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.3": {
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "2.2.3",
-          "Microsoft.EntityFrameworkCore.Relational": "2.2.3",
+          "Microsoft.Data.Sqlite.Core": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.6",
           "Microsoft.Extensions.DependencyModel": "2.1.0"
         },
         "compile": {
@@ -2725,6 +2725,13 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.TypeScript.MSBuild/3.6.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.TypeScript.MSBuild.props": {},
+          "build/Microsoft.TypeScript.MSBuild.targets": {}
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -3011,6 +3018,42 @@
             "assetType": "native",
             "rid": "win-x86"
           }
+        }
+      },
+      "Selenium.Chrome.WebDriver/75.0.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Chrome.WebDriver.targets": {}
+        }
+      },
+      "Selenium.Firefox.WebDriver/0.24.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
+        }
+      },
+      "Selenium.Support/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_green/1.1.12": {
@@ -6028,16 +6071,16 @@
         "version.txt"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/2.2.3": {
-      "sha512": "WVhNky8hr/k6+PfwOz5yJzNe4CPCkyOnYI4nAwfY2qm54/thGGXLwgga+i07lvLryThCOJ4JaQfJg1iZLzlP5Q==",
+    "Microsoft.Data.Sqlite.Core/2.2.6": {
+      "sha512": "JuHLktt4mb5jSTKr+lq4OeuG8tUcCdk/9Gg9kX955+BNcIpSrDqLTcktBOyOIWWUrqBp1zjEbd+/u/9rF57H1w==",
       "type": "package",
-      "path": "microsoft.data.sqlite.core/2.2.3",
+      "path": "microsoft.data.sqlite.core/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.2.2.3.nupkg.sha512",
+        "microsoft.data.sqlite.core.2.2.6.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
@@ -6056,41 +6099,41 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/2.2.3": {
-      "sha512": "GUiOOYMUiaXK6G/RqgBgI2NsHJLKSFrHuOVnpXQrC7VgmFGG7sFyQmh/j5cMJT5XeGCymNY3wnDlewZ1GEFYJg==",
+    "Microsoft.EntityFrameworkCore/2.2.6": {
+      "sha512": "vmrMrjiCO7FkuFJwt/MHl6pk6cSXPtB1miPMtn0KTO7WqwaQ2WQ4gWpC/m753PzVriH2X2kIadWrd9SJb7KVww==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/2.2.3",
+      "path": "microsoft.entityframeworkcore/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.2.2.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/2.2.3": {
-      "sha512": "89dSjkZmLVnsbIoiQyMDdMBakTrgiY+1mfu4MRfWRX1ysSx+nGfcPPZ8QfRKLq+i7EIqylUNVJSHi7bHTwL9LQ==",
+    "Microsoft.EntityFrameworkCore.Abstractions/2.2.6": {
+      "sha512": "4CrelpMMLszWqi0gFEYPhbsinXCQ2Vw6rA190IIwKY7THge/ckOwj6QIQKOu3Lmxj4khpzs+b6QADbpRRnOIaQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/2.2.3",
+      "path": "microsoft.entityframeworkcore.abstractions/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.2.2.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/2.2.3": {
-      "sha512": "+7DQd8xaq1kh2szcVkMJAN4/TvjFt5gK4fIsRHcPvZrc10p9Rhhitd44xGTGs9e0RRVijz0+OVI7jPvKaVfwAQ==",
+    "Microsoft.EntityFrameworkCore.Analyzers/2.2.6": {
+      "sha512": "BpNllkfZABCvMAaIL/pSLxTYYZQqiVesSG6xQpvelrlEfC0s9PS217Sq5Apn/zYW8ALtGoVEY12TblHrZ4SRRA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/2.2.3",
+      "path": "microsoft.entityframeworkcore.analyzers/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
-        "microsoft.entityframeworkcore.analyzers.2.2.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -6124,41 +6167,41 @@
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/2.2.3": {
-      "sha512": "gwB+FOVqI+lwTl9MCtH5iI6Zfes0JlCDBuxCQ3ngLMzSqFFzgLANmmgA/cl+D2WOZ01TXivpRSzNMrnDfOJljA==",
+    "Microsoft.EntityFrameworkCore.Relational/2.2.6": {
+      "sha512": "AlB4Gg1nplg6fwieCLixphmYkhwM1SSHecE43oDizAjFUSs7vlL5mlwf620X4SB037pVg+naxhBEtF53TGa6yQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/2.2.3",
+      "path": "microsoft.entityframeworkcore.relational/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.2.2.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite/2.2.3": {
-      "sha512": "XYAorAbpuWow4tFugdOvZJq8nlXSkA1/FdZYltFc/t73t2Ay0hjeCDuyQSFG14sjVokG0R3eefkgkiBzTcbBBQ==",
+    "Microsoft.EntityFrameworkCore.Sqlite/2.2.6": {
+      "sha512": "U4ifHn7YJsj31waXLbXwR/HMdQnp/v+bBGw5VfSRqVtO10npQa3LBOXWZTaocXgJBoIX0ADI2ZkfjX+hb0CnJA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite/2.2.3",
+      "path": "microsoft.entityframeworkcore.sqlite/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.sqlite.2.2.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.3": {
-      "sha512": "H5J7VCqFsCy69QAxer4CuNVRthbKRx8zxdQoDsM35oorUe9mcY66TFc/L7wu9RdMgrYuBHZWTYQ8TQdbtPSQGA==",
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.6": {
+      "sha512": "FRwNvIjcoDaMGExrrGb02ULgY0dhkk70OuY7Bc61wK4rOVHweLiCAaJJ3y3s9w604lM1lBcTWmEilFincRJRhw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite.core/2.2.3",
+      "path": "microsoft.entityframeworkcore.sqlite.core/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.xml",
-        "microsoft.entityframeworkcore.sqlite.core.2.2.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.core.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
@@ -7365,6 +7408,98 @@
         "version.txt"
       ]
     },
+    "Microsoft.TypeScript.MSBuild/3.6.0": {
+      "sha512": "1suc2QDvzroq6gLfZxK/ZsUF653x/D7x5Y1NIn9aPGsLw2zo7jwSUa5ihfO7rWUY9Jtme3x2xchdaZuogpehDw==",
+      "type": "package",
+      "path": "microsoft.typescript.msbuild/3.6.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.TypeScript.MSBuild.props",
+        "build/Microsoft.TypeScript.MSBuild.targets",
+        "microsoft.typescript.msbuild.3.6.0.nupkg.sha512",
+        "microsoft.typescript.msbuild.nuspec",
+        "tools/Microsoft.TypeScript.Default.props",
+        "tools/Microsoft.TypeScript.targets",
+        "tools/net45/System.IO.FileSystem.Primitives.dll",
+        "tools/net45/System.IO.FileSystem.dll",
+        "tools/net45/TypeScript.Tasks.dll",
+        "tools/netstandard1.3/TypeScript.Tasks.dll",
+        "tools/tsc/cancellationToken.js",
+        "tools/tsc/cs/diagnosticMessages.generated.json",
+        "tools/tsc/de/diagnosticMessages.generated.json",
+        "tools/tsc/en/diagnosticMessages.generated.json",
+        "tools/tsc/es/diagnosticMessages.generated.json",
+        "tools/tsc/fr/diagnosticMessages.generated.json",
+        "tools/tsc/it/diagnosticMessages.generated.json",
+        "tools/tsc/ja/diagnosticMessages.generated.json",
+        "tools/tsc/ko/diagnosticMessages.generated.json",
+        "tools/tsc/lib.d.ts",
+        "tools/tsc/lib.dom.d.ts",
+        "tools/tsc/lib.dom.iterable.d.ts",
+        "tools/tsc/lib.es2015.collection.d.ts",
+        "tools/tsc/lib.es2015.core.d.ts",
+        "tools/tsc/lib.es2015.d.ts",
+        "tools/tsc/lib.es2015.generator.d.ts",
+        "tools/tsc/lib.es2015.iterable.d.ts",
+        "tools/tsc/lib.es2015.promise.d.ts",
+        "tools/tsc/lib.es2015.proxy.d.ts",
+        "tools/tsc/lib.es2015.reflect.d.ts",
+        "tools/tsc/lib.es2015.symbol.d.ts",
+        "tools/tsc/lib.es2015.symbol.wellknown.d.ts",
+        "tools/tsc/lib.es2016.array.include.d.ts",
+        "tools/tsc/lib.es2016.d.ts",
+        "tools/tsc/lib.es2016.full.d.ts",
+        "tools/tsc/lib.es2017.d.ts",
+        "tools/tsc/lib.es2017.full.d.ts",
+        "tools/tsc/lib.es2017.intl.d.ts",
+        "tools/tsc/lib.es2017.object.d.ts",
+        "tools/tsc/lib.es2017.sharedmemory.d.ts",
+        "tools/tsc/lib.es2017.string.d.ts",
+        "tools/tsc/lib.es2017.typedarrays.d.ts",
+        "tools/tsc/lib.es2018.asyncgenerator.d.ts",
+        "tools/tsc/lib.es2018.asynciterable.d.ts",
+        "tools/tsc/lib.es2018.d.ts",
+        "tools/tsc/lib.es2018.full.d.ts",
+        "tools/tsc/lib.es2018.intl.d.ts",
+        "tools/tsc/lib.es2018.promise.d.ts",
+        "tools/tsc/lib.es2018.regexp.d.ts",
+        "tools/tsc/lib.es2019.array.d.ts",
+        "tools/tsc/lib.es2019.d.ts",
+        "tools/tsc/lib.es2019.full.d.ts",
+        "tools/tsc/lib.es2019.object.d.ts",
+        "tools/tsc/lib.es2019.string.d.ts",
+        "tools/tsc/lib.es2019.symbol.d.ts",
+        "tools/tsc/lib.es2020.d.ts",
+        "tools/tsc/lib.es2020.full.d.ts",
+        "tools/tsc/lib.es2020.string.d.ts",
+        "tools/tsc/lib.es2020.symbol.wellknown.d.ts",
+        "tools/tsc/lib.es5.d.ts",
+        "tools/tsc/lib.es6.d.ts",
+        "tools/tsc/lib.esnext.array.d.ts",
+        "tools/tsc/lib.esnext.asynciterable.d.ts",
+        "tools/tsc/lib.esnext.bigint.d.ts",
+        "tools/tsc/lib.esnext.d.ts",
+        "tools/tsc/lib.esnext.full.d.ts",
+        "tools/tsc/lib.esnext.intl.d.ts",
+        "tools/tsc/lib.esnext.symbol.d.ts",
+        "tools/tsc/lib.scripthost.d.ts",
+        "tools/tsc/lib.webworker.d.ts",
+        "tools/tsc/lib.webworker.importscripts.d.ts",
+        "tools/tsc/pl/diagnosticMessages.generated.json",
+        "tools/tsc/pt-BR/diagnosticMessages.generated.json",
+        "tools/tsc/ru/diagnosticMessages.generated.json",
+        "tools/tsc/tr/diagnosticMessages.generated.json",
+        "tools/tsc/tsc.js",
+        "tools/tsc/tsserver.js",
+        "tools/tsc/typesMap.json",
+        "tools/tsc/typingsInstaller.js",
+        "tools/tsc/watchGuard.js",
+        "tools/tsc/zh-CN/diagnosticMessages.generated.json",
+        "tools/tsc/zh-TW/diagnosticMessages.generated.json"
+      ]
+    },
     "Microsoft.Win32.Registry/4.5.0": {
       "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "type": "package",
@@ -7869,6 +8004,70 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Selenium.Chrome.WebDriver/75.0.0": {
+      "sha512": "jpy9RQRazPT/NfL6TE5MaT7HY5HEIzfBZSkUjFX5dhgH3n0LliWLIRkdQXDa2i8nc1715w7kO9jQSJSJQgy66g==",
+      "type": "package",
+      "path": "selenium.chrome.webdriver/75.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Chrome.WebDriver.targets",
+        "driver/chromedriver.exe",
+        "selenium.chrome.webdriver.75.0.0.nupkg.sha512",
+        "selenium.chrome.webdriver.nuspec"
+      ]
+    },
+    "Selenium.Firefox.WebDriver/0.24.0": {
+      "sha512": "p5lmZwTRYw/ZRM7Qx0QjbaLwWC3q6fpGMhBSDEwspVZw4KJs+hwtcHYy7huEZmBgw1D0QghvcdObyEiz3CH4mg==",
+      "type": "package",
+      "path": "selenium.firefox.webdriver/0.24.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Firefox.WebDriver.targets",
+        "driver/geckodriver.exe",
+        "selenium.firefox.webdriver.0.24.0.nupkg.sha512",
+        "selenium.firefox.webdriver.nuspec"
+      ]
+    },
+    "Selenium.Support/3.141.0": {
+      "sha512": "F4sxMCXGyqWtbw5qsniJRgza2UsBnslHwFgNA2p7hPxvJhqg73lyXu/ZscJ7FSfRvq3eJrosysv92+4sZ3vWsg==",
+      "type": "package",
+      "path": "selenium.support/3.141.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.Support.dll",
+        "lib/net35/WebDriver.Support.xml",
+        "lib/net40/WebDriver.Support.dll",
+        "lib/net40/WebDriver.Support.xml",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net45/WebDriver.Support.xml",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.3.141.0.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "sha512": "wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
+      "type": "package",
+      "path": "selenium.webdriver/3.141.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/WebDriver.dll",
+        "lib/net35/WebDriver.xml",
+        "lib/net40/WebDriver.dll",
+        "lib/net40/WebDriver.xml",
+        "lib/net45/WebDriver.dll",
+        "lib/net45/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "selenium.webdriver.3.141.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
       ]
     },
     "SQLitePCLRaw.bundle_green/1.1.12": {
@@ -12420,26 +12619,31 @@
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.3",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.EntityFrameworkCore.Sqlite >= 2.2.6",
+      "Microsoft.NETCore.App >= 2.2.0",
+      "Microsoft.TypeScript.MSBuild >= 3.6.0",
+      "Selenium.Chrome.WebDriver >= 75.0.0",
+      "Selenium.Firefox.WebDriver >= 0.24.0",
+      "Selenium.Support >= 3.141.0",
+      "Selenium.WebDriver >= 3.141.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\ollie\\.nuget\\packages\\": {},
-    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ollie\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "c:\\Users\\ollie\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "C:\\Users\\ollie\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectPath": "c:\\Users\\ollie\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\ollie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ollie\\DatingApp\\DatingApp.API\\obj\\",
+      "outputPath": "c:\\Users\\ollie\\DatingApp\\DatingApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\ProgramData\\Xamarin\\NuGet\\",
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
@@ -12452,7 +12656,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+        "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
@@ -12481,13 +12691,35 @@
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
-            "version": "[2.2.3, )"
+            "version": "[2.2.6, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.TypeScript.MSBuild": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.6.0, )"
+          },
+          "Selenium.Chrome.WebDriver": {
+            "target": "Package",
+            "version": "[75.0.0, )"
+          },
+          "Selenium.Firefox.WebDriver": {
+            "target": "Package",
+            "version": "[0.24.0, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[3.141.0, )"
+          },
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[3.141.0, )"
           }
         },
         "imports": [
