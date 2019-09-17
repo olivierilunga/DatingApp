@@ -1,39 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ollie\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {}
+    "/Users/olivierilunga/Documents/GitHub/DatingApp/DatingApp.API/DatingApp.API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ollie\\DatingApp\\DatingApp.API\\DatingApp.API.csproj": {
+    "/Users/olivierilunga/Documents/GitHub/DatingApp/DatingApp.API/DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ollie\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+        "projectUniqueName": "/Users/olivierilunga/Documents/GitHub/DatingApp/DatingApp.API/DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "c:\\Users\\ollie\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
-        "packagesPath": "C:\\Users\\ollie\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ollie\\DatingApp\\DatingApp.API\\obj\\",
+        "projectPath": "/Users/olivierilunga/Documents/GitHub/DatingApp/DatingApp.API/DatingApp.API.csproj",
+        "packagesPath": "/Users/olivierilunga/.nuget/packages/",
+        "outputPath": "/Users/olivierilunga/Documents/GitHub/DatingApp/DatingApp.API/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ollie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/olivierilunga/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
